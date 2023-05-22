@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#start-container,
+#question-container,
+#score-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#start-btn,
+.option-btn {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #2980b9;
+}
+
+#score-list {
+    list-style-type: none;
+    padding: 0;
+}
